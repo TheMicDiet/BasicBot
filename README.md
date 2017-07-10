@@ -2,9 +2,8 @@
 ## A basic discord bot written in JavaScript
 ------------------------
 ### Available Commands:
-- `!play (url)` Play a video/music
-- ``!playlist (url)`` Play a youtube playlist
-- ``!skip [number]`` Skip some number of songs
+- `!play (url)` Play a video/music/playlist
+- ``!skip [number]`` skip a number of songs
 - ``!queue`` Display the current queue
 - ``!pause`` Pause music playback
 - ``!resume`` Resume music playback
@@ -20,11 +19,12 @@
 Change the youtube api token and the discord bot token in the bot.js file.
 Then install the following Node packages:
 - discord.js
-- yt-dl
+- ytdl-core
 - youtube-dl
 - request
 - ffmpeg-binaries
 - node-opus
+- async-foreach
 
 Finally run the bot.js file with: ``node bot.js``
 
