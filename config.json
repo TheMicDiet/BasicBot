@@ -1,0 +1,7 @@
+{ 
+    "prefix": "!",
+    "max_queue_size": 50,
+    "default_volume": 10,
+    "youtube_api_token": "YOURKEY",    
+    "token": "YOURTOKEN"
+}
