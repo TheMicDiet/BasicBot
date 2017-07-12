@@ -44,16 +44,16 @@ client.on("message", msg => {
             case "volume": return volume(msg, suffix)
             case "leave": return leave(msg, suffix)
             case "clearqueue": return clearqueue(msg, suffix)
-			case "kill": return kill(msg, suffix)
-			case "suicide": return suicide(msg, suffix)
-			case "tilt": return tilt(msg, suffix)			
-			case "kick": return kick(msg, suffix)
-			case "ban":	return ban(msg, suffix)
-			case "setrole": return setRole(msg, suffix)
-			case "unban": return unban(msg, suffix)
-			case "invite": return invite(msg, suffix)
-			case "listroles": return listRoles(msg, suffix)
-			case "removerole": return removeRole(msg, suffix)
+	    case "kill": return kill(msg, suffix)
+	    case "suicide": return suicide(msg, suffix)
+	    case "tilt": return tilt(msg, suffix)			
+		case "kick": return kick(msg, suffix)
+		case "ban": return ban(msg, suffix)
+		case "setrole": return setRole(msg, suffix)
+		case "unban": return unban(msg, suffix)
+		case "invite": return invite(msg, suffix)
+		case "listroles": return listRoles(msg, suffix)
+		case "removerole": return removeRole(msg, suffix)
             default: msg.channel.send(wrap("Not a valid command!\nType !help for more information."))                         
                         
         }
@@ -248,7 +248,7 @@ function kick(msg, suffix) {
 
 function invite(msg, suffix) {
 	checkIfAdmin(msg)		
-	msg.channel.createInvite().then((invite) => msg.channel.send(invite.url)	
+	msg.channel.createInvite().then((invite) => msg.channel.send(invite.url))	
 	
 }
 
