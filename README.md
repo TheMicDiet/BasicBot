@@ -28,7 +28,9 @@
 
 -------------------------------------
 ### Installation
-Change the youtube api token and the discord bot token in the bot.js file.
+Download bot.js & config.json and put them in the same directory.
+Change the youtube api token and the discord bot token in the config.json file.
+
 Then install the following Node packages:
 - discord.js
 - ytdl-core
