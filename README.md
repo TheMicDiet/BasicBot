@@ -21,7 +21,7 @@
 - ``!kick [name]`` Kicks the the given user from the server.
 - ``!ban [name]`` Bans the given user from the server.
 - ``!unban [name]`` Unbans the given user from the server.
-- ``!listroles []`` Lists all available roles on the server.
+- ``!listroles`` Lists all available roles on the server.
 - ``!setrole [name] [role]`` Sets the given role for the given user.
 - ``!removerole [name] [role]`` Removes the given role from the given user.
 - ``!invite`` Creates an invite to the channel.    
